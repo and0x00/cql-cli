@@ -15,7 +15,7 @@ import (
 
 func main() {
 	// Defining command line flags
-	host := flag.String("host", "localhost", "Database host")
+	host := flag.String("host", "127.0.0.1", "Database host")
 	port := flag.String("port", "9042", "Database port")
 	user := flag.String("user", "", "Username for authentication")
 	password := flag.String("password", "", "Password for authentication")
