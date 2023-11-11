@@ -20,7 +20,7 @@ go build -o cql-cli
 Run the CLI tool using the following syntax:
 
 ```bash
-./scylla_cli [options]
+./cql-cli [options]
 ```
 
 ### Options
